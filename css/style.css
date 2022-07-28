@@ -1,3 +1,51 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* default style  */
+:root {
+    --primary-color: #6B3DA3;
+}
+.title-font {
+    font-family: 'Croissant One', cursive;
+    color: var(--primary-color);
+}
+.default-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 25px;
+}
+.default-btn:hover {
+    background-color: #5b279b;
+    color: #fff;
+    border-color: var(--primary-color);
+}
+img {
+    width: 100%;
+}
+
+
+
+
+/* header section */
+nav .default-btn {
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+    color: var(--primary-color);
+}
+.nav-link {
+    font-weight: 600;
+}
+.active {
+    color: var(--primary-color) !important;
+}
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+
+/* banner section  */
 .carousel {
     height: 600px;
     overflow: hidden;
@@ -21,5 +69,26 @@
 }
 .carousel-item h1 {
     font-size: 60px;
+    font-weight: bold;
+}
+
+
+/* popular course section  */
+.section_heading h1 {
+    font-size: 50px;
+}
+.course_container .card .card_img img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.course_container .card {
+    cursor: pointer;
+}
+.course_container .card-text {
+    font-size: 15px;
+}
+.course_container .price {
+    color: var(--primary-color);
     font-weight: bold;
 }
