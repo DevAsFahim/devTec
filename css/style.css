@@ -107,3 +107,36 @@ nav .default-btn {
 
 
 
+/* feedback section starts  */
+.feedback_container {
+    position: relative;
+}
+.feedback_container .arrow_icon i{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+}
+.feedback_container .arrow_icon i.fa-angle-left {
+    left: -5px;
+    top: 50%;
+    background-color: #d7d0e0;
+}
+.feedback_container .arrow_icon i.fa-angle-right {
+    right: -5px;
+    top: 50%;
+}
+.feedback .card img {
+    width: 70px;
+}
+.feedback .card .ratings i {
+    color: orange;
+    font-size: 20px;
+}
+
