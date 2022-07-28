@@ -1,0 +1,25 @@
+.carousel {
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+.carousel-1 {
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover/cover-1.png);
+}
+.carousel-2 {
+    height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover/cover-2.jpg);
+}
+.carousel-3 {
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover/cover-3.jpg);
+}
+.carousel-item h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
