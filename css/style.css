@@ -92,3 +92,18 @@ nav .default-btn {
     color: var(--primary-color);
     font-weight: bold;
 }
+
+
+
+/* ready to join  */
+.join_content {
+    background-color: var(--primary-color);
+    padding:60px;
+}
+.join_content button {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+
+
