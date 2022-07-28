@@ -140,3 +140,53 @@ nav .default-btn {
     font-size: 20px;
 }
 
+
+/* footer section */
+footer .social_media i {
+    color: #fff;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 599px;
+    background-color: #333;
+    margin: 0 3px;
+    transition: .4s;
+}
+footer .social_media i:hover {
+    transform: translateY(-6px);
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .carousel-item div {
+        width: 80% !important;
+    }
+    .carousel-item div h1 {
+        font-size: 35px;
+    }
+    .carousel-item div p {
+        font-size: 15px;
+    }
+
+    .section_heading {
+        width: 100% !important;
+    }
+    .section_heading h1 {
+        font-size: 35px;
+    }
+    .section_heading p {
+        font-size: 14px;
+    }
+    .join .col-lg-8 p {
+        width: 100% !important;
+    }
+
+    .faq .accordion {
+        min-width: 100%;
+    }
+}
